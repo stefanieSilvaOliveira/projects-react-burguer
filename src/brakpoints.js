@@ -1,7 +1,7 @@
 const size = {
     sm: '511px',
     md: '600px',
-    bg: '966'
+    bg: '966',
 }
 
 const breakpoints = {
