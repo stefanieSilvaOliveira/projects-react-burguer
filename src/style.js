@@ -11,8 +11,8 @@ export const Container = styled.div`
        @media ${breakpoints.sm}{
             min-height: 50%
        }
-`;
 
+`;
 
 export const Header = styled.header`
       width: 100%;
@@ -63,8 +63,8 @@ export const Header = styled.header`
             color: #fff;
             
     }
-    }
 
+    }
 `;
 
 export const Logo = styled.div`
@@ -120,8 +120,7 @@ export const H1 = styled.h1`
             font-size: 25px;
             color: #000;
            
-      }     
-       
+      }        
 `;
 
 export const P = styled.p`
@@ -265,9 +264,9 @@ export const Card = styled.div`
     @media ${breakpoints.sm}{
             
             display: none;
+
        }
-   
-`;
+`
 
 
 
