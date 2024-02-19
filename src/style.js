@@ -12,6 +12,11 @@ export const Container = styled.div`
             min-height: 50%
        }
 
+       @media ${breakpoints.md}{
+            min-height: 100%
+       }
+
+
 `;
 
 export const Header = styled.header`
@@ -51,20 +56,20 @@ export const Header = styled.header`
 
        ul{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        margin: 20px 10px 0 10px;
+        margin: 10px 20px 0 20px;
       }
 
      li{
             display: flex;
-            margin: 10px 10px 10px 20px;
+            margin: 0px 30px 10px 30px;
             font-size: 13px;
-            color: #fff;
-            
+            color: #fff;         
     }
 
-    }
+}
+
 `;
 
 export const Logo = styled.div`
@@ -83,7 +88,7 @@ export const Logo = styled.div`
       @media ${breakpoints.sm}{
             display:flex;
             font-size: 18px;
-            margin: 20px 10px 0 30px;
+            margin: 10px 20px 5px 60px;
             color: #000;
            
       }     
@@ -98,8 +103,7 @@ export const ContainerItens = styled.div`
        @media ${breakpoints.sm}{
             height: 50%;
             width: 100%;
-            background:  #F8F2DC;
-           
+            background:  #b6000f;     
       }           
 `;
 
@@ -114,7 +118,7 @@ export const H1 = styled.h1`
 
         @media ${breakpoints.sm}{
            text-align: center;
-            margin: 90px 20px 0 -30px;
+            margin: 90px 40px 10px 40px;
             width: 350px;
             height: 200px;
             font-size: 25px;
@@ -138,14 +142,13 @@ export const P = styled.p`
       @media ${breakpoints.sm}{
           
         display: flex;
-        height: 50px;
-        width: 250px;
-        margin-top: 200px;
-        margin-left: 20px;
-        margin-right: -30px;
+        height: 60px;
+        width: 270px;
+        margin: 180px 50px 30px 80px;
+        text-align: center;
         font-size: 13px;
         font-weight: 400;
-        color: #75706F;
+        color: #FFF;
 
       }
       
@@ -183,17 +186,14 @@ export const Button = styled.button`
       }
 
       @media ${breakpoints.sm}{
-          
-
            &.button-main{
-            width: 150px;
+            width: 100px;
             height: 30px;
-            font-size: 13px;
-            font-weight: 400;
-            margin-right: 80px;
-            background: #fdb137;
-            color: #000;
-           }    
+            margin-right: 230px;
+            margin-bottom: 40px;
+      
+            }
+
       }     
 
 `;

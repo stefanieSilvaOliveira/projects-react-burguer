@@ -94,7 +94,7 @@ const CarroselConteiner = styled.div`
           cursor: pointer;  
           background-color:  #F8F2DC;
           
-          @media ${breakpoints.sm}{
+          @media ${breakpoints.md}{
           
        }
           
@@ -104,7 +104,7 @@ const CarroselConteiner = styled.div`
     width:  100px; 
     margin: 20px 20px 0 30px;   
 
-    @media ${breakpoints.sm}{
+    @media ${breakpoints.md}{
            margin: 70px 10px 0 70px;
            height: 70px;
            width: 70px;
@@ -116,7 +116,7 @@ h1{
   margin-left: 50px;
   font-weight: 300;
 
-  @media ${breakpoints.sm}{
+  @media ${breakpoints.md}{
             font-size: 11px;
             font-weight: 400;
             text-align: center;
@@ -128,7 +128,7 @@ h1{
     
       font-size: 20px;
 
-      @media ${breakpoints.sm}{
+      @media ${breakpoints.md}{
             font-size: 13px;
             font-weight: 600;
            
@@ -139,9 +139,10 @@ h1{
 .swiper-button-prev::after {
      color: #b6000f;  
 
-     @media ${breakpoints.sm}{
+     @media ${breakpoints.md}{
            height: 20px;
            width: 70px;
+           color: #b6000f;  
            
        }
 }
