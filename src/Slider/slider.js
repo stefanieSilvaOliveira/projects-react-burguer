@@ -108,8 +108,7 @@ const CarroselConteiner = styled.div`
            margin: 70px 10px 0 70px;
            height: 70px;
            width: 70px;
-       }
-    
+       } 
  }   
 
 h1{
