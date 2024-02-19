@@ -95,14 +95,15 @@ const CarroselConteiner = styled.div`
           background-color:  #F8F2DC;
           
           @media ${breakpoints.md}{
-          
+            background-color:  #FFF;
+            margin: 70px 70px 0 20px;
        }
           
 
 .burguerKfc{
     height: 100px;
     width:  100px; 
-    margin: 20px 20px 0 30px;   
+    margin: 50px 20px 20px 50px;   
 
     @media ${breakpoints.md}{
            margin: 70px 10px 0 70px;

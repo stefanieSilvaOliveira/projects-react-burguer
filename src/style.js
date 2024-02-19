@@ -9,11 +9,8 @@ export const Container = styled.div`
        background-color: #F8F2DC;
   
        @media ${breakpoints.sm}{
-            min-height: 50%
-       }
-
-       @media ${breakpoints.md}{
-            min-height: 100%
+            min-height: 100%;
+            background-color: #FFF;
        }
 
 
@@ -63,7 +60,7 @@ export const Header = styled.header`
 
      li{
             display: flex;
-            margin: 0px 30px 10px 30px;
+            margin: 0px 10px 10px 30px;
             font-size: 13px;
             color: #fff;         
     }
@@ -118,7 +115,7 @@ export const H1 = styled.h1`
 
         @media ${breakpoints.sm}{
            text-align: center;
-            margin: 90px 40px 10px 40px;
+            margin: 90px 20px 10px 20px;
             width: 350px;
             height: 200px;
             font-size: 25px;
@@ -144,7 +141,7 @@ export const P = styled.p`
         display: flex;
         height: 60px;
         width: 270px;
-        margin: 180px 50px 30px 80px;
+        margin: 180px 20px 30px 55px;
         text-align: center;
         font-size: 13px;
         font-weight: 400;
@@ -189,11 +186,9 @@ export const Button = styled.button`
            &.button-main{
             width: 100px;
             height: 30px;
-            margin-right: 230px;
+            margin-right: 150px;
             margin-bottom: 40px;
-      
             }
-
       }     
 
 `;
