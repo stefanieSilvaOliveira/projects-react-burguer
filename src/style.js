@@ -213,6 +213,13 @@ export const ContainerCaixa = styled.div`
       margin-top: 100px;
       margin-left: 100px;
       cursor: pointer;
+
+      @media ${breakpoints.sm}{
+            display: grid;
+            grid-template-columns: 100px 100px;
+
+            }
+
    
      .menuImg{
       width: 90px;
@@ -257,9 +264,7 @@ export const Card = styled.div`
     background: #FFF;
 
     @media ${breakpoints.sm}{
-            
-            display: none;
-
+              display: none;    
        }
 `
 

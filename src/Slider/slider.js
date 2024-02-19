@@ -106,7 +106,7 @@ const CarroselConteiner = styled.div`
     margin: 50px 20px 20px 50px;   
 
     @media ${breakpoints.md}{
-           margin: 70px 10px 0 70px;
+           margin: 20px 10px 0 20px;
            height: 70px;
            width: 70px;
        } 
