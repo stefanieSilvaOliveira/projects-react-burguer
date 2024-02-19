@@ -18,14 +18,8 @@ return(
    <CarroselConteiner> 
     <Swiper
      modules={[Navigation, Pagination, Scrollbar, A11y]}
-    spaceBetween={150}
-    slidesPerView={4}
-    breakpoints={{
-      300: {
-        slidesPerView: 2,
-        spaceBetween: 50
-      }
-    }}
+    spaceBetween={20}
+    slidesPerView={3}
     navigation={{ 
         nextEl: '.swiper-button-next', 
         prevEl: '.swiper-button-prev',
@@ -108,7 +102,7 @@ const CarroselConteiner = styled.div`
 .burguerKfc{
     height: 100px;
     width:  100px; 
-    margin: 20px 20px 0 50px;   
+    margin: 20px 20px 0 30px;   
 
     @media ${breakpoints.sm}{
            margin: 70px 10px 0 70px;
@@ -120,7 +114,7 @@ const CarroselConteiner = styled.div`
 
 h1{
   font-size: 15px;
-  text-align: center;
+  margin-left: 50px;
   font-weight: 300;
 
   @media ${breakpoints.sm}{

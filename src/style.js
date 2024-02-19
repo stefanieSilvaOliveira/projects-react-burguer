@@ -7,9 +7,7 @@ export const Container = styled.div`
        min-height: 100%;
        overflow: hidden;
        background-color: #F8F2DC;
-
-      
-        
+  
        @media ${breakpoints.sm}{
             min-height: 50%
        }
@@ -102,9 +100,7 @@ export const ContainerItens = styled.div`
             width: 100%;
             background:  #F8F2DC;
            
-      }     
-
-       
+      }           
 `;
 
 export const H1 = styled.h1`
@@ -198,12 +194,8 @@ export const Button = styled.button`
             margin-right: 80px;
             background: #fdb137;
             color: #000;
-           }
-
-
-           
+           }    
       }     
-
 
 `;
 
