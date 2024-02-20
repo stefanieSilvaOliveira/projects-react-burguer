@@ -49,7 +49,7 @@ export const Header = styled.header`
        display: flex;
        align-items: center;
        justify-content: center;  
-       background: #b6000f;
+       background: #FFF;
 
        ul{
         display: flex;
@@ -60,9 +60,9 @@ export const Header = styled.header`
 
      li{
             display: flex;
-            margin: 0px 10px 10px 30px;
+            margin: 0px 10px 10px 18px;
             font-size: 13px;
-            color: #fff;         
+            color: #000;         
     }
 
 }
@@ -86,8 +86,7 @@ export const Logo = styled.div`
             display:flex;
             font-size: 18px;
             margin: 10px 20px 5px 60px;
-            color: #000;
-           
+            color: #b6000f;           
       }     
 `;
 
