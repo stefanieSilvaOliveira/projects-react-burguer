@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+<h1>Hamburgueria KFC</h1> <img src="https://github.com/stefanieSilvaOliveira/projects-react-burguer/assets/118211028/0d12c169-9c1c-45ae-9033-78fc27056fd6" width="50" height="50">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br>
+<br>
+Projeto inspirado na hamburgueria do KFC,com o objetivo de colocar conhecimentos adquiridos durante essas ultimas semanas de React.js! Na realização desse projeto utilizei a biblioteca
+Styled-Components que vem me ajudando muito na estilização no meu CSS.
+E para fazer o cardapio virtual com aparência de carrossel,bem bonito e dinamico utilizei a biblioteca Swipper essa biblioteca tem muitas ferramentas uteis para desenvolver um slider além de ter uma documentação simples essa biblioteca é muito funcional,estou gostando bastante de utilizar ela em meus projetos.
+<br>
+<br>
+Assim na construção do projeto precisei utilizar as seguintes tecnologias e linguagens: HTML,CSS,JAVASCRIPT e REACT.
+<br>
+<br>
+<br>
+<br>
 
-## Available Scripts
+<img src="https://github.com/stefanieSilvaOliveira/projects-react-burguer/assets/118211028/f2468b96-a7a9-44a4-9707-2cc3cfe9cf23" width="50" height="50">
+<img src="https://github.com/stefanieSilvaOliveira/projects-react-burguer/assets/118211028/f1ef002c-c475-4825-a854-ee5fefbaa8be" width="50" height="50">
+<img src="https://github.com/stefanieSilvaOliveira/projects-react-burguer/assets/118211028/1b5d2f28-c4a1-4ec2-878f-6472c639a40c" width="50" height="50">
+<img src="https://github.com/stefanieSilvaOliveira/projects-react-burguer/assets/118211028/8e7bd700-ebd2-4fad-8465-275d781511d6" width="50" height="50">
+<br>
+<br>
+<img src="https://github.com/stefanieSilvaOliveira/projects-react-burguer/assets/118211028/d67547a8-baa7-46f4-bf5b-d0d227297d4f">
 
-In the project directory, you can run:
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
